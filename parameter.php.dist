@@ -1,0 +1,5 @@
+<?php
+define('CLIENT_ID', '');
+define('SERVICE_ACCOUNT_NAME', '');
+define('KEY_FILE', '');
+define('PROFILE_ID', '');
