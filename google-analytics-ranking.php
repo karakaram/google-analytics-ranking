@@ -111,7 +111,7 @@ class GoogleAnalyticsRanking
             file_get_contents(KEY_FILE)
         ));
 
-        $yesterday = date_i18n("Y-m-d", strtotime("-1 day"));
+        $yesterday = date_i18n('Y-m-d', strtotime('-1 day', current_time('timestamp')));
 
         $service = new Google_AnalyticsService($client);
         $result = $service->data_ga->get(
